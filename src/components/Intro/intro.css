@@ -1,0 +1,74 @@
+#intro {
+  height: calc(100vh - 4rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+.picContainer{
+  height: 100vh;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+  
+}
+
+.profilePic{
+  /* position:absolute; */
+  top: -4rem;
+  z-index: -1;
+  right:0;
+  object-fit: cover; 
+  height: 60vh;
+  border-radius: 15rem;
+  
+}
+
+.introContent{
+  height: 100vh;
+  width: 50%;
+  padding: 2rem ;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.hello{
+font-size: 1.75rem;
+font-weight: 100;
+}
+
+.introName{
+  color: yellow;
+}
+
+.introPara{
+  font-size: medium;
+  font-weight: 100;
+}
+
+.button{
+  background: white;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0 ;
+  border-radius: 3rem;
+  border: none;
+}
+
+@media screen and (max-width:840px) {
+  .profilePic{
+    height: 0vh;
+    
+  }
+
+  
+  
+  
+}
