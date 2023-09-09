@@ -7,7 +7,7 @@ import Skills from '../components/Skills/skills';
 const Home = () => {
   return (
     <div className="App">
-      <Navbar/>
+      
       <Intro/>
       <Skills/>
     </div>

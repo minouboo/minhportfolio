@@ -5,7 +5,6 @@ import Navbar from '../components/NavBar/navbar';
 const ItExperiencePage = () => {
   return (
     <div>
-      <Navbar/>
       <ItExperience/>
     </div>
     
