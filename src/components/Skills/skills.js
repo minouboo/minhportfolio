@@ -12,19 +12,42 @@ import react from './../../assets/react.svg';
 import mySql from './../../assets/mysql.png';
 import postGre from './../../assets/postgre.png';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import animationAppear from '../Animations/animationAppear';
+import AnimationImage from '../Animations/animationImage';
 
 
 const Skills = () => {
 
   const ref = useRef(null);
-  const isInView = useInView(ref, {once: true} );
+  const isInView = useInView(ref, {once: false} );
   const mainControls = useAnimation();
-
   useEffect(()=>{
     if(isInView){
       mainControls.start("visible")
     }
   },[isInView]);
+
+  const ref1 = useRef(null);
+  const isInView1 = useInView(ref1, {once: false} );
+  const mainControls1 = useAnimation();
+  useEffect(()=>{
+    if(isInView1){
+      mainControls1.start("visible")
+    }
+  },[isInView1]);
+
+  const ref2 = useRef(null);
+  const isInView2 = useInView(ref2, {once: false} );
+  const mainControls2 = useAnimation();
+  useEffect(()=>{
+    if(isInView2){
+      mainControls2.start("visible")
+    }
+  },[isInView2]);
+
+ 
+
+ 
 
   
 
@@ -47,76 +70,81 @@ const Skills = () => {
           <div className='descriptionContainer'>
             <h2 className='descriptionTitle' ref={ref}>Business Development</h2>
             <div className='descriptionSkill'>
-              <div className='imageContainer'>
-                <img src={businessNegotiation} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>International Business</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={supplier} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Supplier</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={marketing} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Marketing</p>
-              </div>              
+              <AnimationImage
+                image={businessNegotiation}
+                text="International Business"/>
+              <AnimationImage
+                image={supplier}
+                text="Supplier"/>
+              <AnimationImage
+                image={marketing}
+                text="Marketing"/>            
             </div>
           </div>          
         </div>
       </motion.div>
 
-      <div className='skillBars'>
+      <motion.div 
+      variants={{
+        hidden:{opacity:0, y:75},
+        visible:{opacity:1, y:0},
+      }}
+      initial="hidden"
+      animate= {mainControls1}
+      transition={{duration:0.5, delay:0.5}}
+      className='skillBars'>
         <div className='skillBar'>
           <div className='descriptionContainer'>
-            <h2 className='descriptionTitle'>IT Project Management</h2>
+            <h2 className='descriptionTitle' ref={ref1}>IT Project Management</h2>
             <div className='descriptionSkill'>
-              <div className='imageContainer'>
-                <img src={agile} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Clients Needs</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={prototype} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Prototype</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={clientsNeeds} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Agile Method</p>
-              </div>              
+              <AnimationImage
+                image={agile}
+                text="Clients Needs"/>
+              <AnimationImage
+                image={prototype}
+                text="Prototype"/>
+              <AnimationImage
+                image={clientsNeeds}
+                text="Agile Method"/>           
             </div>
           </div>          
         </div>
-      </div>
+      </motion.div>
 
-      <div className='skillBars'>
+      <motion.div 
+      variants={{
+        hidden:{opacity:0, y:75},
+        visible:{opacity:1, y:0},
+      }}
+      initial="hidden"
+      animate= {mainControls2}
+      transition={{duration:0.5, delay:0.5}}
+      className='skillBars'>
         <div className='skillBar'>
           <div className='descriptionContainer'>
-            <h2 className='descriptionTitle'>Web Development</h2>
+            <h2 className='descriptionTitle' ref={ref2}>Web Development</h2>
             <div className='descriptionSkill'>
-              <div className='imageContainer'>
-                <img src={react} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>React/React-Native</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={java} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>Java Springboot</p>
-              </div>
-              <div className='imageContainer'>
-                <img src={htmlImg} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>HTML/CSS/Javascript</p>
-              </div>        
+              <AnimationImage
+                image={react}
+                text="React/React-Native"/>
+              <AnimationImage
+                image={java}
+                text="Java Springboot"/>
+              <AnimationImage
+                image={htmlImg}
+                text="HTML/CSS/Javascript"/> 
             </div>
             <div className='descriptionSkill'>
-              <div className='imageContainer'>
-                <img src={mySql} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>MySQL</p>
-              </div>  
-              <div className='imageContainer'>
-                <img src={postGre} alt="Animated GIF" className='gif'/>
-                <p className='skillText'>PostgreSQL</p>
-              </div>           
+              <AnimationImage
+                image={mySql}
+                text="MySQL"/>
+              <AnimationImage
+                image={postGre}
+                text="PostgreSQL"/>          
             </div>
           </div>          
         </div>
-      </div>
+      </motion.div>
 
       
     </section>

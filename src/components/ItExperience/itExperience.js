@@ -6,10 +6,6 @@ import MyICard from './../../assets/LogoMyECard.png';
 
 const ItExperience = () => {
 
-  /* const {ref: myRef, inView: visible, entry} = useInView(); */
-
-  
-
   return (
     <section id='IT'>
       <h2>Education</h2>
@@ -29,19 +25,11 @@ const ItExperience = () => {
           </div>
           <div>
             <p className='descriptionCompany'>My ICard is a mobile application that will replace your paper business card. Share your business card with a Qr Code and update in real time your informations in order to never loose your contact. Managed your contacts in your own way in order to never forget your contact</p>
-            <p /* ref={myRef} */ className='descriptionCompany'>What I have done:</p>
+            <p className='descriptionCompany'>What I have done:</p>
             <p className= 'descriptionCompany'>Design a Figma prototype, optimising the user experience and interface for the mobile application.</p>
             <p className= 'descriptionCompany'>Code the front-end using React-Native, base on the Figma prototype.</p>
             <p className= 'descriptionCompany'>Integrate the mobile application with backend services by utilising Java SpringBoot APIs.</p>
-           {/*  <div>
-              {visible ? (
-              <div>
-                <p className= {`${'descriptionCompany'} ${visible ? 'animatedDescriptionComapny' : ''}`}>Design a Figma prototype, optimising the user experience and interface for the mobile application.</p>
-                <p className= {`${'descriptionCompany'} ${visible ? 'animatedDescriptionComapny' : ''}`}>Code the front-end using React-Native, base on the Figma prototype.</p>
-                <p className= {`${'descriptionCompany'} ${visible ? 'animatedDescriptionComapny' : ''}`}>Integrate the mobile application with backend services by utilising Java SpringBoot APIs.</p>
-              </div>): 'no'}
-              
-            </div> */}
+           
             
           </div>
           

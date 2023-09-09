@@ -9,7 +9,7 @@ const Intro = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true} );
   const mainControls = useAnimation();
-  const slideControls = useAnimation();
+  
 
   useEffect(()=>{
     if(isInView){

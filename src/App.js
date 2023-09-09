@@ -1,17 +1,16 @@
-import Navbar from "./components/NavBar/navbar";
-import Intro from "./components/Intro/intro"
-import Skills from "./components/Skills/skills";
-import ItExperience from "./components/ItExperience/itExperience";
-import './globalStyles.css'; 
+import './globalStyles.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes instead of Switch
+import Home from "./Pages/home";
+import ItExperiencePage from "./Pages/itExperiencePage";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Intro/>
-      <Skills/>
-      <ItExperience/>
-    </div>
+    <Router>
+      <Routes> 
+        <Route path="/" element={<Home />} /> 
+        <Route path="/IT" element={<ItExperiencePage />} /> 
+      </Routes>
+    </Router>
   );
 }
 

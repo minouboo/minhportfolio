@@ -1,7 +1,7 @@
 import React, { Children } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
-const animationAppear = (Children,mainControls) => {
+const animationAppear = ( animate, className) => {
 
 
   return (
@@ -11,9 +11,10 @@ const animationAppear = (Children,mainControls) => {
         visible:{opacity:1, y:0},
       }}
       initial="hidden"
-      animate= {mainControls}
-      transition={{duration:0.5, delay:0.5}}>
-        {Children}
+      animate= {animate}
+      transition={{duration:0.5, delay:0.5}}
+      className={className}>
+        
       </motion.div>
   )
 }
