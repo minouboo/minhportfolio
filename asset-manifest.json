@@ -1,15 +1,27 @@
 {
   "files": {
-    "main.css": "/minhportfolio/static/css/main.ad7f5df3.css",
-    "main.js": "/minhportfolio/static/js/main.1349c771.js",
+    "main.css": "/minhportfolio/static/css/main.d980a2ba.css",
+    "main.js": "/minhportfolio/static/js/main.96cbcbaa.js",
     "static/media/Profile.jpg": "/minhportfolio/static/media/Profile.3fc5fabeb7cc5b8c5ebd.jpg",
+    "static/media/LogoMyECard.png": "/minhportfolio/static/media/LogoMyECard.b286a67166fa55b8b4df.png",
+    "static/media/postgre.png": "/minhportfolio/static/media/postgre.a7fa39912c91e079e90b.png",
+    "static/media/html.svg": "/minhportfolio/static/media/html.15a1163512979264855a7b8e4c14b3e0.svg",
     "static/media/contact.png": "/minhportfolio/static/media/contact.9ece166572aed93d3d07.png",
+    "static/media/mysql.png": "/minhportfolio/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/clientsNeeds.svg": "/minhportfolio/static/media/clientsNeeds.bbb48b3eeecbd7546075990c3f895cc7.svg",
+    "static/media/agile.svg": "/minhportfolio/static/media/agile.a1e9c982435590ed37c46fd1f7eaa970.svg",
+    "static/media/businessNegotation.svg": "/minhportfolio/static/media/businessNegotation.7fdd18582d68be7564ebd1d131f93d50.svg",
+    "static/media/java.png": "/minhportfolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/react.svg": "/minhportfolio/static/media/react.e01383832789b91780c43c8fd927703f.svg",
+    "static/media/supplier.svg": "/minhportfolio/static/media/supplier.c9c18e3c8db78aeca82f24b5ed3dafa5.svg",
+    "static/media/prototype.svg": "/minhportfolio/static/media/prototype.549f11ec2b2ffb9ceb9952669ec80f97.svg",
+    "static/media/marketing.svg": "/minhportfolio/static/media/marketing.0115a0a397d75c997ba39ac196277822.svg",
     "index.html": "/minhportfolio/index.html",
-    "main.ad7f5df3.css.map": "/minhportfolio/static/css/main.ad7f5df3.css.map",
-    "main.1349c771.js.map": "/minhportfolio/static/js/main.1349c771.js.map"
+    "main.d980a2ba.css.map": "/minhportfolio/static/css/main.d980a2ba.css.map",
+    "main.96cbcbaa.js.map": "/minhportfolio/static/js/main.96cbcbaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad7f5df3.css",
-    "static/js/main.1349c771.js"
+    "static/css/main.d980a2ba.css",
+    "static/js/main.96cbcbaa.js"
   ]
 }
