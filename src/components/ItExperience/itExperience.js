@@ -1,4 +1,4 @@
-import React,{useEffect, useRef} from 'react';
+import React from 'react';
 import './itExperience.css';
 import MyICard from './../../assets/LogoMyECard.png';
 import Graduation from './../../assets/graduation.svg';
@@ -6,7 +6,6 @@ import Mobile from './../../assets/mobile.svg';
 import Computer from './../../assets/computer.svg';
 import TaskManagement from './../../assets/taskManagement.svg'
 import AnimationSentence from '../Animations/animationSentence';
-import { motion, useInView, useAnimation } from 'framer-motion';
 
 const ItExperience = () => {
 

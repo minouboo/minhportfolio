@@ -1,7 +1,8 @@
 import React,{useEffect, useRef} from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import Computer from './../../assets/computer.svg';
 
-const AnimationSentence = ({title, projectDescription, sentences, picture, description}) => {
+const AnimationSentence = ({title, projectDescription, sentences, picture, description, date}) => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once: false} );
@@ -41,7 +42,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
     animate={mainControls}
     className='experienceContainer'>
       <div className='imageContainer'>
-        <img src={picture} alt="Animated GIF" className='gif'/>
+        <img src={picture} alt='no pics' className='gif'/>
       </div>
       <div className='description'>
         <div className='companyTitle' ref={ref}>
@@ -50,6 +51,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
         </div>
         <motion.ul>
           <p className='descriptionCompany'>{projectDescription}</p>
+          <p className='companyTitleDescription'>{date}</p>
           <p className='subtitle'>What I have done:</p>
           {sentences.map((sentence, index) => (
             <motion.li key={index} className="descriptionCompany" variants={item}>

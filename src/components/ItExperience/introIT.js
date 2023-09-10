@@ -37,7 +37,7 @@ const IntroIT = () => {
           
           <span className='introName'>Full Stack Web Developper</span>
           <p className='introPara'>Professional in web development and business strategy. Adept at driving innovation, optimising user experiences, and skill fully managing cross-functional teams.</p>
-          <Link><button className='button'>Hire me!</button></Link>
+          
         
       </motion.div>
       

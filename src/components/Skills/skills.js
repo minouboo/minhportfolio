@@ -14,6 +14,11 @@ import postGre from './../../assets/postgre.png';
 import { motion, useInView, useAnimation } from 'framer-motion';
 import animationAppear from '../Animations/animationAppear';
 import AnimationImage from '../Animations/animationImage';
+import france from './../../assets/france.png';
+import england from './../../assets/united-kingdom.png';
+import spain from './../../assets/spain.png';
+import vietnam from './../../assets/vietnam.png';
+import thai from './../../assets/thailand.png';
 
 
 const Skills = () => {
@@ -44,13 +49,6 @@ const Skills = () => {
       mainControls2.start("visible")
     }
   },[isInView2]);
-
- 
-
- 
-
-  
-
 
   return (
     <section id='skills' >
@@ -141,6 +139,41 @@ const Skills = () => {
               <AnimationImage
                 image={postGre}
                 text="PostgreSQL"/>          
+            </div>
+          </div>          
+        </div>
+      </motion.div>
+
+      <motion.div 
+      variants={{
+        hidden:{opacity:0, y:75},
+        visible:{opacity:1, y:0},
+      }}
+      initial="hidden"
+      animate= {mainControls2}
+      transition={{duration:0.5, delay:0.5}}
+      className='skillBars'>
+        <div className='skillBar'>
+          <div className='descriptionContainer'>
+            <h2 className='descriptionTitle' ref={ref2}>Language</h2>
+            <div className='descriptionSkill'>
+              <AnimationImage
+                image={france}
+                text="French (native)"/>
+              <AnimationImage
+                image={england}
+                text="English (fluent)"/>
+              <AnimationImage
+                image={spain}
+                text="Spanish (Intermediate)"/> 
+            </div>
+            <div className='descriptionSkill'>
+              <AnimationImage
+                image={vietnam}
+                text="Vietnamese (Spoken)"/>
+              <AnimationImage
+                image={thai}
+                text="Thai (Elementary)"/>          
             </div>
           </div>          
         </div>

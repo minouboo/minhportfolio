@@ -4,7 +4,8 @@ import './../ItExperience/introIT.css';
 import Profile from '../../assets/Profile.jpg';
 import { Link } from 'react-scroll';
 import { motion, useInView, useAnimation } from 'framer-motion';
-import animationDev from './../../assets/animationDev.gif'
+import animationDev from './../../assets/animationDev.gif';
+import PicProfilePro from './../../assets/PicProfilePro.jpg';
 
 
 const IntroBusiness = () => {
@@ -36,15 +37,15 @@ const IntroBusiness = () => {
         
           
           <span className='introName'>International Business Development</span>
+          <span className='introName'>&</span>
           <span className='introName'>Project Management</span>
-          <p className='introPara'>Experienced professional with a blend of business acumen and web development expertise. Passionate about leveraging technology to drive international business growth and innovation. Seeking opportunities to channel my proficiency in cross-border collaborations, strategic development, and customer-centric solutions. Equipped with foundations in both business strategy and technical implementation, I am dedicated to surpassing client expectations and delivering impactful results.
-</p>
-          <Link><button className='button'>Hire me!</button></Link>
+          <p className='introPara'>Experienced professional with a blend of business acumen and web development expertise. Passionate about leveraging technology to drive international business growth and innovation.</p>
+          
         
       </motion.div>
       
       <div className='picContainer'>
-        <img src={animationDev} alt='' className='gifIT'/>
+        <img src={PicProfilePro} alt='' className='gifIT'/>
       </div>  
 
     </section>

@@ -62,7 +62,7 @@
   flex-direction: column;
   border-radius: 3rem;
   margin: 1rem 2rem;
-  padding: 0rem ;
+  padding: 2rem ;
   width: 15vw;
 }
 
@@ -85,4 +85,15 @@
 
 .descriptionTitle{
   font-size: 2rem;
+}
+
+@media screen and (max-width: 840px){
+  
+  .descriptionSkill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
 }

@@ -34,7 +34,7 @@ const Intro = () => {
           <span className='hello'>Hello,</span>
           <span className='introText'>I'm <span className='introName'>Minh</span><br/>Full Stack Web Developper<br/>Business Developper</span>
           <p className='introPara'>Results-driven and skilled professional with experience in both business and web development.</p>
-          <Link><button className='button'>Hire me!</button></Link>
+          
         
       </motion.div>
       

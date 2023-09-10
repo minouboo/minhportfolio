@@ -9,7 +9,7 @@ const AnimationImage = ({image, text}) => {
     whileHover={{ scale: 1.1 }}
     transition={{ type: "spring", stiffness: 400, damping: 10 }}
     className='imageContainer'>
-      <img src={image} alt="Animated GIF" className='gif'/>
+      <img src={image} alt="Animated GIF" className='icon'/>
       <p className='skillText'>{text}</p>
     </motion.div>
   )
