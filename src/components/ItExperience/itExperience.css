@@ -26,6 +26,7 @@
 
 .experienceContainer{
   color: white;
+  width:80vw;
   border-radius: 0.6rem;
   padding: 1rem 0.5rem;
   margin: 3rem 0rem;
@@ -34,6 +35,16 @@
   justify-content: left;
   align-items: flex-start;
   text-align: left;
+  background-color: rgb(50,50,50);
+}
+
+.imageContainer{
+  width:10vw;
+}
+
+.subtitle{
+  font-size: 1.5rem;
+  color: #6c63ff;
 }
 
 .gif{

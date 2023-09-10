@@ -1,10 +1,13 @@
 import React,{useRef, useEffect} from 'react';
-import './intro.css';
+import './../Intro/intro.css';
+import './introIT.css';
 import Profile from '../../assets/Profile.jpg';
 import { Link } from 'react-scroll';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import animationDev from './../../assets/animationDev.gif'
 
-const Intro = () => {
+
+const IntroIT = () => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true} );
@@ -31,19 +34,19 @@ const Intro = () => {
         className='introContent'
         >
         
-          <span className='hello'>Hello,</span>
-          <span className='introText'>I'm <span className='introName'>Minh</span><br/>Full Stack Web Developper<br/>Business Developper</span>
-          <p className='introPara'>Results-driven and skilled professional with experience in both business and web development.</p>
+          
+          <span className='introName'>Full Stack Web Developper</span>
+          <p className='introPara'>Professional in web development and business strategy. Adept at driving innovation, optimising user experiences, and skill fully managing cross-functional teams.</p>
           <Link><button className='button'>Hire me!</button></Link>
         
       </motion.div>
       
       <div className='picContainer'>
-        <img src={Profile} alt='' className='profilePic'/>
+        <img src={animationDev} alt='' className='gifIT'/>
       </div>  
 
     </section>
   )
 }
 
-export default Intro
+export default IntroIT

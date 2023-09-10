@@ -1,0 +1,10 @@
+.gifIT{
+  
+    /* position:absolute; */
+    top: -4rem;
+    z-index: -1;
+    right:0;
+    object-fit: cover; 
+    height: 40vh;
+    border-radius: 15rem;
+}

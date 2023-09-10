@@ -1,10 +1,13 @@
 import React,{useRef, useEffect} from 'react';
-import './intro.css';
+import './../Intro/intro.css';
+import './../ItExperience/introIT.css';
 import Profile from '../../assets/Profile.jpg';
 import { Link } from 'react-scroll';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import animationDev from './../../assets/animationDev.gif'
 
-const Intro = () => {
+
+const IntroBusiness = () => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true} );
@@ -31,19 +34,21 @@ const Intro = () => {
         className='introContent'
         >
         
-          <span className='hello'>Hello,</span>
-          <span className='introText'>I'm <span className='introName'>Minh</span><br/>Full Stack Web Developper<br/>Business Developper</span>
-          <p className='introPara'>Results-driven and skilled professional with experience in both business and web development.</p>
+          
+          <span className='introName'>International Business Development</span>
+          <span className='introName'>Project Management</span>
+          <p className='introPara'>Experienced professional with a blend of business acumen and web development expertise. Passionate about leveraging technology to drive international business growth and innovation. Seeking opportunities to channel my proficiency in cross-border collaborations, strategic development, and customer-centric solutions. Equipped with foundations in both business strategy and technical implementation, I am dedicated to surpassing client expectations and delivering impactful results.
+</p>
           <Link><button className='button'>Hire me!</button></Link>
         
       </motion.div>
       
       <div className='picContainer'>
-        <img src={Profile} alt='' className='profilePic'/>
+        <img src={animationDev} alt='' className='gifIT'/>
       </div>  
 
     </section>
   )
 }
 
-export default Intro
+export default IntroBusiness
