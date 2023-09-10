@@ -81,24 +81,24 @@
   margin: 1rem 0rem;
 }
 
-/* .animatedDescriptionCompany{
-  animation-duration: 5s;
-  animation-name: animate-description;
-}
 
-@keyframes animate-description{
-  0%{
-    color: aqua;
+@media screen and (max-width: 840px){
+  
+  .experienceContainer{
+    color: white;
+    width:100vw;
+    border-radius: 0.6rem;
+    padding: 1rem 0.5rem;
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgb(50,50,50);
   }
-  30%{
-    color: blue;
-  }
-  60%{
-    color: antiquewhite;
-  }
-  90%{
-    color: brown;
-  }
-} */
+
+  
+}
 
 
