@@ -1,6 +1,7 @@
 import React,{useEffect, useRef} from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 import Computer from './../../assets/computer.svg';
+import { Link } from 'react-router-dom';
 
 const AnimationSentence = ({title, projectDescription, sentences, picture, description, date}) => {
 
@@ -52,6 +53,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
         <motion.ul>
           <p className='descriptionCompany'>{projectDescription}</p>
           <p className='companyTitleDescription'>{date}</p>
+          <Link to="https://github.com/minouboo/immo.git" className='companyTitleDescription'>Business</Link>
           <p className='subtitle'>What I have done:</p>
           {sentences.map((sentence, index) => (
             <motion.li key={index} className="descriptionCompany" variants={item}>

@@ -8,10 +8,9 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className='menu'>
-          <Link to="minhportfolio/" className='menuListItem'>Home</Link>
+          <Link to="minhportfolio/" className='menuListItem'>About Me</Link>
           <Link to="/IT" className='menuListItem'>IT</Link>
           <Link to="/business" className='menuListItem'>Business</Link>
-          <Link className='menuListItem'>About</Link>
         </div>
         <button className='menuButton'>
           <img src={contact} alt="" className='menuImg'/>Contact Me

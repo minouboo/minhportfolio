@@ -70,6 +70,16 @@ const ItExperience = () => {
       ]}
       />
 
+      <AnimationSentence
+      picture={Computer}
+      title='WordPress Project'
+      projectDescription= 'Booking appointment app for Covid Vaccine using WordPress:'
+      sentences={[
+        "Designed and implemented a registration form.",
+        "Deployed the Booking Appointment application on Planet Hoster server."
+      ]}
+      />
+
     </section>
 
 

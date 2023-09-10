@@ -6,6 +6,9 @@ import LogoBLinked from './../../assets/LogoAloneBLinkedSolution.png';
 import EnergaiaLogo from './../../assets/LogoEnergaiasmall2017.jpg';
 import EGreenLogo from './../../assets/eGreen.webp';
 import PayByPhoneLogo from './../../assets/PayByPhone.png';
+import FrenchTech from './../../assets/FrenchTech.png';
+
+
 
 const businessExperience = () => {
   return (
@@ -84,6 +87,17 @@ const businessExperience = () => {
         "Conducted training sessions for the company team, equipping them with the necessary skills to leverage the CRM effectively within the prospecting strategy.",
         "Orchestrated preparation of exhibitions, encompassing display design, procurement of promotional items, and booth setup.",
         "Developed a targeted marketing presentation tailored to public organisations.",
+      ]}
+      />
+
+      <span className='skillsTitle'>Extra Professional</span>
+
+      <AnimationSentence
+      title='French Tech Bangkok'
+      picture={FrenchTech}
+      description='French Incubator (Bangkok Thailand)'
+      sentences={[
+        "Participated in incubator project by benchmark and visit coworking space to install potential French IT start-up that wants to set-up business in South East Asia."
       ]}
       />
       
