@@ -64,6 +64,15 @@ const Skills = () => {
     }
   },[isInView3]);
 
+  const ref4 = useRef(null);
+  const isInView4 = useInView(ref4, {once: false} );
+  const mainControls4 = useAnimation();
+  useEffect(()=>{
+    if(isInView4){
+      mainControls4.start("visible")
+    }
+  },[isInView4]);
+
   return (
     <section id='skills' >
       <span className='skillsTitle'>My Skills</span>
@@ -199,12 +208,12 @@ const Skills = () => {
         visible:{opacity:1, y:0},
       }}
       initial="hidden"
-      animate= {mainControls3}
+      animate= {mainControls4}
       transition={{duration:0.5, delay:0.5}}
       className='skillBars'>
         <div className='skillBar'>
           <div className='descriptionContainer'>
-            <h2 className='descriptionTitle' ref={ref3}>Tools Mastered</h2>
+            <h2 className='descriptionTitle' ref={ref4}>Tools Mastered</h2>
             <div className='descriptionSkill'>
               <AnimationImage
                 image={adobe}

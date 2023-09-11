@@ -23,6 +23,7 @@ const businessExperience = () => {
       title='B-LINKED SOLUTIONS'
       picture={LogoBLinked}
       description='Trading and Consulting , (Hong Kong)'
+      link='http://www.b-linkedsolutions.com/'
       projectDescription= 'Founder-CEO '
       date='(March 2019 - Today)'
       sentences={[

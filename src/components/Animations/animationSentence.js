@@ -42,26 +42,29 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
     initial="hidden"
     animate={mainControls}
     className='experienceContainer'>
-      <div className='imageContainer'>
-        <img src={picture} alt='no pics' className='imageCompany'/>
-      </div>
-      <div className='description'>
-        <div className='companyTitle' ref={ref}>
-          <span className='companyName'>{title}</span>
-          <span className='companyTitleDescription'>{description}</span>
+      <div className='contentContainer'>
+        <div className='imageContainer'>
+          <img src={picture} alt='no pics' className='imageCompany'/>
         </div>
-        <motion.ul>
-          <p className='descriptionCompany'>{projectDescription}</p>
-          <p className='companyTitleDescription'>{date}</p>
-          <Link to={link} className='companyTitleDescription'>{link}</Link>
-          <p className='subtitle'>What I have done:</p>
-          {sentences.map((sentence, index) => (
-            <motion.li key={index} className="descriptionCompany" variants={item}>
-              {sentence}
-            </motion.li>
-          ))}
-        </motion.ul>
+        <div className='description'>
+          <div className='companyTitle' ref={ref}>
+            <span className='companyName'>{title}</span>
+            <span className='companyTitleDescription'>{description}</span>
+          </div>
+          <Link to={link} className='link'>{link}</Link>
+          <motion.ul>
+            <p className='descriptionCompany'>{projectDescription}</p>
+            <p className='companyTitleDescription'>{date}</p>
+            <p className='subtitle'>What I have done:</p>
+            {sentences.map((sentence, index) => (
+              <motion.li key={index} className="descriptionCompany" variants={item}>
+                {sentence}
+              </motion.li>
+            ))}
+          </motion.ul>
+        </div>
       </div>
+      
     </motion.div>
 
   )
