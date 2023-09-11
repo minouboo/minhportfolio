@@ -5,6 +5,7 @@ import Home from "./Pages/home";
 import ItExperiencePage from "./Pages/itExperiencePage";
 import BusinessPage from './Pages/businessPage';
 import React from 'react';
+import Footer from './components/Footer/footer';
 
 
 function ScrollToTop() {
@@ -31,6 +32,7 @@ function App() {
             <Route path="/business" element={<BusinessPage />} /> 
           </Routes>
         </div>
+        <Footer/>
        
       </div>
     </Router>

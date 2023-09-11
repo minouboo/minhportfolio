@@ -7,7 +7,7 @@ const Button = ({image, buttonText, buttonAction}) => {
 
   return (
     <button className='menuButton'>
-      <img src={image} alt="" className='menuImg' onClick={buttonAction} />{buttonText}
+      <img src={image} alt="" className='navImg' onClick={buttonAction} />{buttonText}
     </button>
   )
 }
