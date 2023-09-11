@@ -14,7 +14,7 @@ const ItExperience = () => {
   return (
     <section id='IT'>
       <span className='skillsTitle'>Education</span>
-      <img src={Graduation} alt="Animated GIF" className='gif'/>
+      <img src={Graduation} alt="Animated GIF" className='iconExperience'/>
       <span>Bachelor of Full Stack Web Developer Specialise Java</span>
       
       <span className='skillsTitle'>IT Working Experience</span>

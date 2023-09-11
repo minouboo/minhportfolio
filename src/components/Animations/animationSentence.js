@@ -1,6 +1,6 @@
 import React,{useEffect, useRef} from 'react';
+import './animationSentence.css'
 import { motion, useInView, useAnimation } from 'framer-motion';
-import Computer from './../../assets/computer.svg';
 import { Link } from 'react-router-dom';
 
 const AnimationSentence = ({title, projectDescription, sentences, picture, description, date, link}) => {
@@ -43,7 +43,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
     animate={mainControls}
     className='experienceContainer'>
       <div className='imageContainer'>
-        <img src={picture} alt='no pics' className='gif'/>
+        <img src={picture} alt='no pics' className='imageCompany'/>
       </div>
       <div className='description'>
         <div className='companyTitle' ref={ref}>
