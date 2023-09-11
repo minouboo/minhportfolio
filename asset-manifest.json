@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/minhportfolio/static/css/main.33483f4f.css",
-    "main.js": "/minhportfolio/static/js/main.02089df7.js",
+    "main.css": "/minhportfolio/static/css/main.e76a294b.css",
+    "main.js": "/minhportfolio/static/js/main.32d5abca.js",
     "static/media/animationDev.gif": "/minhportfolio/static/media/animationDev.7835ddbfd9d23e02b60c.gif",
     "static/media/LogoEnergaiasmall2017.jpg": "/minhportfolio/static/media/LogoEnergaiasmall2017.999c5e5dc1c425238997.jpg",
     "static/media/Profile.jpg": "/minhportfolio/static/media/Profile.3fc5fabeb7cc5b8c5ebd.jpg",
@@ -11,6 +11,7 @@
     "static/media/LogoAloneBLinkedSolution.png": "/minhportfolio/static/media/LogoAloneBLinkedSolution.3101f899540f46f27306.png",
     "static/media/postgre.png": "/minhportfolio/static/media/postgre.a7fa39912c91e079e90b.png",
     "static/media/html.svg": "/minhportfolio/static/media/html.15a1163512979264855a7b8e4c14b3e0.svg",
+    "static/media/FrenchTech.png": "/minhportfolio/static/media/FrenchTech.4dbb1d01bdf0c976f89e.png",
     "static/media/contact.png": "/minhportfolio/static/media/contact.9ece166572aed93d3d07.png",
     "static/media/mysql.png": "/minhportfolio/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/united-kingdom.png": "/minhportfolio/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
@@ -32,11 +33,11 @@
     "static/media/graduation.svg": "/minhportfolio/static/media/graduation.ce1dd05a84a91a52eb8cffaf6b3b82e6.svg",
     "static/media/eGreen.webp": "/minhportfolio/static/media/eGreen.117111e0698252366918.webp",
     "index.html": "/minhportfolio/index.html",
-    "main.33483f4f.css.map": "/minhportfolio/static/css/main.33483f4f.css.map",
-    "main.02089df7.js.map": "/minhportfolio/static/js/main.02089df7.js.map"
+    "main.e76a294b.css.map": "/minhportfolio/static/css/main.e76a294b.css.map",
+    "main.32d5abca.js.map": "/minhportfolio/static/js/main.32d5abca.js.map"
   },
   "entrypoints": [
-    "static/css/main.33483f4f.css",
-    "static/js/main.02089df7.js"
+    "static/css/main.e76a294b.css",
+    "static/js/main.32d5abca.js"
   ]
 }
