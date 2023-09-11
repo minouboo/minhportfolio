@@ -48,6 +48,7 @@ const ItExperience = () => {
       <AnimationSentence
       picture={Computer}
       title='Real Estate Property Management'
+      link="https://github.com/minouboo/immo.git"
       projectDescription= 'Developed a sophisticated Real Estate Web application utilising the SpringBoot framework, integrating both back-end and front-end functionalities'
       sentences={[
         "Implemented the back-end of the application using Java SpringBoot.",
