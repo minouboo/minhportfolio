@@ -1,15 +1,32 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import './animationImage.css';
 
 const AnimationImage = ({image, text}) => {
 
+  const cardVariants = {
+    offscreen: {
+      y: 300
+    },
+    onscreen: {
+      y: 0,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 0.8
+      }
+    }
+  };
+
   return (
     <motion.div 
-    whileHover={{ scale: 1.1 }}
-    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+    initial="offscreen"
+      whileInView="onscreen"
+      viewport={{ once: true, amount: 0.8 }}
     className='imageContainer'>
-      <img src={image} alt="Animated GIF" className='icon'/>
+      <motion.img
+      variants={cardVariants}
+       src={image} alt="Animated GIF" className='icon'/>
       <p className='skillText'>{text}</p>
     </motion.div>
   )
