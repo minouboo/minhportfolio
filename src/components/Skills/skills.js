@@ -1,4 +1,6 @@
 import React,{useEffect, useRef} from 'react';
+import { Link } from 'react-router-dom';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import './skills.css';
 import businessNegotiation from './../../assets/businessNegotation.svg';
 import marketing from './../../assets/marketing.svg';
@@ -11,7 +13,6 @@ import htmlImg from './../../assets/html.svg';
 import react from './../../assets/react.svg';
 import mySql from './../../assets/mysql.png';
 import postGre from './../../assets/postgre.png';
-import { motion, useInView, useAnimation } from 'framer-motion';
 import AnimationImage from '../Animations/animationImage';
 import france from './../../assets/france.png';
 import england from './../../assets/united-kingdom.png';
@@ -76,35 +77,10 @@ const Skills = () => {
   return (
     <section id='skills' >
       <span className='skillsTitle'>My Skills</span>
-      <span className='skillDescription'>Equipped with a diverse skill set and a passion for technology, I am seeking opportunities to contribute my expertise in driving business growth and delivering innovative web solutions.</span>
+      <span className='skillDescription'>
+        Equipped with a diverse skill set and a passion for technology, I am seeking opportunities to contribute my expertise in driving business growth and delivering innovative web solutions.
+      </span>
       
-      <motion.div 
-      variants={{
-        hidden:{opacity:0, y:75},
-        visible:{opacity:1, y:0},
-      }}
-      initial="hidden"
-      animate= {mainControls}
-      transition={{duration:0.5, delay:0.5}}
-      className='skillBars'>
-        <div className='skillBar'>
-          <div className='descriptionContainer'>
-            <h2 className='descriptionTitle' ref={ref}>Business Development</h2>
-            <div className='descriptionSkill'>
-              <AnimationImage
-                image={businessNegotiation}
-                text="International Business"/>
-              <AnimationImage
-                image={supplier}
-                text="Supplier"/>
-              <AnimationImage
-                image={marketing}
-                text="Marketing"/>            
-            </div>
-          </div>          
-        </div>
-      </motion.div>
-
       <motion.div 
       variants={{
         hidden:{opacity:0, y:75},
@@ -144,6 +120,10 @@ const Skills = () => {
         <div className='skillBar'>
           <div className='descriptionContainer'>
             <h2 className='descriptionTitle' ref={ref2}>Web Development</h2>
+            <span className='skillDescription'>
+              Here is my GitHub:
+            </span>
+            <Link to='https://github.com/minouboo?tab=repositories' className='link'>My Projects</Link>
             <div className='descriptionSkill'>
               <AnimationImage
                 image={react}
@@ -162,6 +142,33 @@ const Skills = () => {
               <AnimationImage
                 image={postGre}
                 text="PostgreSQL"/>          
+            </div>
+          </div>          
+        </div>
+      </motion.div>
+
+      <motion.div 
+      variants={{
+        hidden:{opacity:0, y:75},
+        visible:{opacity:1, y:0},
+      }}
+      initial="hidden"
+      animate= {mainControls}
+      transition={{duration:0.5, delay:0.5}}
+      className='skillBars'>
+        <div className='skillBar'>
+          <div className='descriptionContainer'>
+            <h2 className='descriptionTitle' ref={ref}>Business Development</h2>
+            <div className='descriptionSkill'>
+              <AnimationImage
+                image={businessNegotiation}
+                text="International Business"/>
+              <AnimationImage
+                image={supplier}
+                text="Supplier"/>
+              <AnimationImage
+                image={marketing}
+                text="Marketing"/>            
             </div>
           </div>          
         </div>

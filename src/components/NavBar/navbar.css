@@ -13,22 +13,14 @@
   z-index: 3; 
 }
 
-.menuImg {
-  object-fit: cover;
-  height: 1rem;
-  width: 1rem;  
-  margin: 0 0.5rem ;
+.menu{
+  display: flex;
+  flex-direction: row;
 }
 
-.menuButton{
-  background: #6c63ff;
-  color: white;
-  border: none;
+.menuListContact{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 1rem;
-  border-radius: 2rem;
+  flex-direction: row;
 }
 
 .menuListItem {
@@ -47,7 +39,7 @@
   
   .navbar {
     background: rgb(30,30,30);
-    height: 6rem;
+    height: 9rem;
     max-height: 75rem;
     width: 100vw;
     margin: 0 auto;
@@ -61,16 +53,10 @@
     z-index: 3; 
   }
 
-  .menuButton{
-    background: #6c63ff;
-    color: white;
-    border: none;
+  .menu{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 1rem;
-    border-radius: 2rem;
-    margin: 0.5rem;
+    flex-direction: row;
   }
+  
 }
 

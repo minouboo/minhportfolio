@@ -16,3 +16,12 @@ body{
 h2{
   padding: 1rem 0;
 }
+
+.link{
+  color: #6c63ff;
+  
+}
+
+.link:hover{
+  color: white;
+}

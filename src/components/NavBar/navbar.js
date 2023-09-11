@@ -1,10 +1,22 @@
 import React from 'react';
 import './navbar.css';
-import contact from '../../assets/contact.png';
 import { Link } from 'react-router-dom';
+import Button from '../Button/Button';
+import addressEmail from '../../assets/email.png';
+import phone from '../../assets/phone.png';
+import whatsapp from '../../assets/whatsapp.png';
 
 
 const Navbar = () => {
+  const email = 'buuvinhminh@gmail.com';
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
+
+  const phoneNumber = '+66647386757';
+
+
   return (
     <nav className='navbar'>
         <div className='menu'>
@@ -12,9 +24,26 @@ const Navbar = () => {
           <Link to="/IT" className='menuListItem'>IT</Link>
           <Link to="/business" className='menuListItem'>Business</Link>
         </div>
-        <button className='menuButton'>
-          <img src={contact} alt="" className='menuImg'/>Contact Me
-        </button>
+        <div className='menuListContact'>
+          <Button
+          image={addressEmail}
+          buttonText={email}
+          buttonAction={handleEmailClick}
+          />
+          <a href={`tel:${phoneNumber}`}>
+            <Button
+            image={phone}
+            buttonText='+66(0)647386757'
+            />
+          </a>
+          
+          {/* <Button
+          image={whatsapp}
+          buttonText='+33(0)673953557'
+          buttonAction={handleEmailClick}
+          /> */}
+        </div>
+        
     </nav>
   )
 }
