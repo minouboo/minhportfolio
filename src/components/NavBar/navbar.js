@@ -14,12 +14,19 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState (false);
 
   const email = 'buuvinhminh@gmail.com';
+  const phoneNumber = '+66647386757';
+  const whatsappNumber = '+33673953557';
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${email}`;
   };
 
-  const phoneNumber = '+66647386757';
+  const handleWhatsAppClick = () => {
+    const whatsappUrl = `https://wa.me/${whatsappNumber}`;
+    window.location.href = whatsappUrl;
+  };
+
+  
 
 
   return (
@@ -46,7 +53,7 @@ const Navbar = () => {
           <Button
           image={whatsapp}
           buttonText='+33(0)673953557'
-          buttonAction={handleEmailClick}
+          buttonAction={handleWhatsAppClick}
           />
         </div>
 
@@ -66,7 +73,7 @@ const Navbar = () => {
           <Button
           image={whatsapp}
           buttonText='+33(0)673953557'
-          buttonAction={handleEmailClick}
+          buttonAction={handleWhatsAppClick}
           />
         </div>
         
