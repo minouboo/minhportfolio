@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/minhportfolio/static/css/main.e76a294b.css",
-    "main.js": "/minhportfolio/static/js/main.32d5abca.js",
+    "main.css": "/minhportfolio/static/css/main.d68492d2.css",
+    "main.js": "/minhportfolio/static/js/main.4f029f33.js",
     "static/media/animationDev.gif": "/minhportfolio/static/media/animationDev.7835ddbfd9d23e02b60c.gif",
     "static/media/LogoEnergaiasmall2017.jpg": "/minhportfolio/static/media/LogoEnergaiasmall2017.999c5e5dc1c425238997.jpg",
     "static/media/Profile.jpg": "/minhportfolio/static/media/Profile.3fc5fabeb7cc5b8c5ebd.jpg",
@@ -12,7 +12,6 @@
     "static/media/postgre.png": "/minhportfolio/static/media/postgre.a7fa39912c91e079e90b.png",
     "static/media/html.svg": "/minhportfolio/static/media/html.15a1163512979264855a7b8e4c14b3e0.svg",
     "static/media/FrenchTech.png": "/minhportfolio/static/media/FrenchTech.4dbb1d01bdf0c976f89e.png",
-    "static/media/contact.png": "/minhportfolio/static/media/contact.9ece166572aed93d3d07.png",
     "static/media/mysql.png": "/minhportfolio/static/media/mysql.7d8d571e5629923eaf74.png",
     "static/media/united-kingdom.png": "/minhportfolio/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
     "static/media/clientsNeeds.svg": "/minhportfolio/static/media/clientsNeeds.bbb48b3eeecbd7546075990c3f895cc7.svg",
@@ -24,20 +23,22 @@
     "static/media/france.png": "/minhportfolio/static/media/france.73f91b4e96d67f8a03f0.png",
     "static/media/thailand.png": "/minhportfolio/static/media/thailand.d9d1107ccf6f395dd028.png",
     "static/media/react.svg": "/minhportfolio/static/media/react.e01383832789b91780c43c8fd927703f.svg",
+    "static/media/figma.png": "/minhportfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/supplier.svg": "/minhportfolio/static/media/supplier.c9c18e3c8db78aeca82f24b5ed3dafa5.svg",
     "static/media/spain.png": "/minhportfolio/static/media/spain.7ab20088ad372c62ab72.png",
     "static/media/computer.svg": "/minhportfolio/static/media/computer.62a6a2e36167da9c029a807da20af7e7.svg",
+    "static/media/adobe.png": "/minhportfolio/static/media/adobe.c4878319cd8d6c70f407.png",
     "static/media/prototype.svg": "/minhportfolio/static/media/prototype.549f11ec2b2ffb9ceb9952669ec80f97.svg",
     "static/media/marketing.svg": "/minhportfolio/static/media/marketing.0115a0a397d75c997ba39ac196277822.svg",
     "static/media/mobile.svg": "/minhportfolio/static/media/mobile.bd87e5dca5998838119b02b4cccf650b.svg",
     "static/media/graduation.svg": "/minhportfolio/static/media/graduation.ce1dd05a84a91a52eb8cffaf6b3b82e6.svg",
     "static/media/eGreen.webp": "/minhportfolio/static/media/eGreen.117111e0698252366918.webp",
     "index.html": "/minhportfolio/index.html",
-    "main.e76a294b.css.map": "/minhportfolio/static/css/main.e76a294b.css.map",
-    "main.32d5abca.js.map": "/minhportfolio/static/js/main.32d5abca.js.map"
+    "main.d68492d2.css.map": "/minhportfolio/static/css/main.d68492d2.css.map",
+    "main.4f029f33.js.map": "/minhportfolio/static/js/main.4f029f33.js.map"
   },
   "entrypoints": [
-    "static/css/main.e76a294b.css",
-    "static/js/main.32d5abca.js"
+    "static/css/main.d68492d2.css",
+    "static/js/main.4f029f33.js"
   ]
 }
