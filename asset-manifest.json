@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/minhportfolio/static/css/main.6d099ca6.css",
-    "main.js": "/minhportfolio/static/js/main.f67542bb.js",
+    "main.js": "/minhportfolio/static/js/main.7c706a62.js",
     "static/media/animationDev.gif": "/minhportfolio/static/media/animationDev.7835ddbfd9d23e02b60c.gif",
     "static/media/LogoEnergaiasmall2017.jpg": "/minhportfolio/static/media/LogoEnergaiasmall2017.999c5e5dc1c425238997.jpg",
     "static/media/Profile.jpg": "/minhportfolio/static/media/Profile.3fc5fabeb7cc5b8c5ebd.jpg",
@@ -35,10 +35,10 @@
     "static/media/eGreen.webp": "/minhportfolio/static/media/eGreen.117111e0698252366918.webp",
     "index.html": "/minhportfolio/index.html",
     "main.6d099ca6.css.map": "/minhportfolio/static/css/main.6d099ca6.css.map",
-    "main.f67542bb.js.map": "/minhportfolio/static/js/main.f67542bb.js.map"
+    "main.7c706a62.js.map": "/minhportfolio/static/js/main.7c706a62.js.map"
   },
   "entrypoints": [
     "static/css/main.6d099ca6.css",
-    "static/js/main.f67542bb.js"
+    "static/js/main.7c706a62.js"
   ]
 }
