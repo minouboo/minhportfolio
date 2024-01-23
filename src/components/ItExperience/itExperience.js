@@ -22,6 +22,7 @@ const ItExperience = () => {
       <AnimationSentence
       picture={MyICard}
       title='My ICard'
+      linkFigma="https://www.figma.com/file/Xsv6btTai0gn7H0x1txC1V/E-visit-card?type=design&node-id=0%3A1&mode=design&t=K3mFqjhg7pll0nck-1"
       description='Digital Business Card Application'
       projectDescription= 'My ICard is a mobile application that will replace your paper business card. Share your business card with a Qr Code and update in real time your informations in order to never loose your contact. Managed your contacts in your own way in order to never forget your contact'
       sentences={[
@@ -43,12 +44,13 @@ const ItExperience = () => {
       ]}
       />
 
-      <span className='skillsTitle'> IT Project</span>
+      <span className='skillsTitle'> IT Study Project</span>
 
       <AnimationSentence
       picture={Computer}
       title='Real Estate Property Management'
-      link="https://github.com/minouboo/immo.git"
+      linkGitHub="https://github.com/minouboo/immo.git"
+      linkFigma="https://www.figma.com/file/PmP40ae7z6Zf1uXEV97gDx/Immo-Studi?type=design&node-id=0%3A1&mode=design&t=51OPDC2QSq7uelKL-1"
       projectDescription= 'Developed a sophisticated Real Estate Web application utilising the SpringBoot framework, integrating both back-end and front-end functionalities'
       sentences={[
         "Implemented the back-end of the application using Java SpringBoot.",

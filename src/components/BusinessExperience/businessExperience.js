@@ -25,7 +25,7 @@ const businessExperience = () => {
       description='Trading and Consulting , (Hong Kong)'
       link='http://www.b-linkedsolutions.com/'
       projectDescription= 'Founder-CEO '
-      date='(March 2019 - Today)'
+      date='(March 2019 - January 2021)'
       sentences={[
         "Established company in Hong-Kong.",
         "Developed business ventures around recycled plastic.",

@@ -3,7 +3,7 @@ import './animationSentence.css'
 import { motion, useInView, useAnimation } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-const AnimationSentence = ({title, projectDescription, sentences, picture, description, date, link}) => {
+const AnimationSentence = ({title, projectDescription, sentences, picture, description, date, linkGitHub, linkFigma}) => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once: false} );
@@ -51,7 +51,8 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
             <span className='companyName'>{title}</span>
             <span className='companyTitleDescription'>{description}</span>
           </div>
-          <Link to={link} className='link'>{link}</Link>
+          {linkGitHub && <Link to={linkGitHub} className='link'>Click here for the GitHub</Link>}
+          {linkFigma && <Link to={linkFigma} className='link'>Click here for the Figma</Link>}
           <motion.ul>
             <p className='descriptionCompany'>{projectDescription}</p>
             <p className='companyTitleDescription'>{date}</p>

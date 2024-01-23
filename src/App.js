@@ -1,5 +1,5 @@
 import './globalStyles.css';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; // Import Routes instead of Switch
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom'; // Import Routes instead of Switch
 import Navbar from './components/NavBar/navbar';
 import Home from "./Pages/home";
 import ItExperiencePage from "./Pages/itExperiencePage";
@@ -28,8 +28,8 @@ function App() {
         <div>
           <Routes> 
             <Route path="minhportfolio/" element={<Home />} /> 
-            <Route path="/IT" element={<ItExperiencePage />} /> 
-            <Route path="/business" element={<BusinessPage />} /> 
+            <Route path="minhportfolio/IT" element={<ItExperiencePage />} /> 
+            <Route path="minhportfolio/business" element={<BusinessPage />} /> 
           </Routes>
         </div>
         <Footer/>
