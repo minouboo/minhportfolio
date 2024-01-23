@@ -27,9 +27,9 @@ function App() {
         <ScrollToTop /> {/* Include the ScrollToTop component */}
         <div>
           <Routes> 
-            <Route path="minhportfolio/" element={<Home />} /> 
-            <Route path="minhportfolio/IT" element={<ItExperiencePage />} /> 
-            <Route path="minhportfolio/business" element={<BusinessPage />} /> 
+            <Route path="home/" element={<Home />} /> 
+            <Route path="IT/" element={<ItExperiencePage />} /> 
+            <Route path="business/" element={<BusinessPage />} /> 
           </Routes>
         </div>
         <Footer/>
