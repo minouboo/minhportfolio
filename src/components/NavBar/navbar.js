@@ -32,9 +32,9 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className='menu'>
-          <Link to="minhportfolio/" className='menuListItem'>About Me</Link>
-          <Link to="minhportfolio/IT" className='menuListItem'>IT</Link>
-          <Link to="minhportfolio/business" className='menuListItem'>Business</Link>
+          <Link to="home/" className='menuListItem'>About Me</Link>
+          <Link to="IT/" className='menuListItem'>IT</Link>
+          <Link to="business/" className='menuListItem'>Business</Link>
         </div>
 
         <div className='menuListContact'>
