@@ -42,7 +42,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
     initial="hidden"
     animate={mainControls}
     className='experienceContainer'>
-      <div className='contentContainerSentence'>
+      <div className='ContainerSentence'>
         <div className='imageContainer'>
           <img src={picture} alt='no pics' className='imageCompany'/>
         </div>

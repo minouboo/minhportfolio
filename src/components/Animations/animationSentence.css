@@ -1,4 +1,4 @@
-.experienceContainer{
+/* .experienceContainer{
   color: white;
   width:80vw;
   border-radius: 0.6rem;
@@ -94,5 +94,172 @@
   }
 
   
+} */
+
+/* Media query for mobile phones */
+@media screen and (max-width: 840px) {
+  /* Your CSS rules for mobile phones here */
+  
+  .experienceContainer{
+    color: white;
+    width:100vw;
+    border-radius: 0.6rem;
+    padding: 1rem 0.5rem;
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    background-color: rgb(50,50,50);
+  }
+
+  .ContainerSentence{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    
+  }
+
+  .imageContainer{
+    width:10vw;
+  }
+  
+  .imageCompany{
+    height: 7rem;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+  }
+  
+  .description{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .companyTitle{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  
+  .companyName{
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+  
+  .companyTitleDescription{
+    margin: 1rem ;
+    font-style: italic;
+  }
+  
+  .descriptionCompany{
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+    padding: 0rem 0.5rem;
+  }
+  
+  .subtitle{
+    font-size: 1.5rem;
+    color: #6c63ff;
+  }
+}
+
+/* Media query for laptops - assuming Full HD resolution */
+@media screen and (min-width: 768px) and (max-width: 1919px) {
+  /* Your CSS rules for laptops here */
+  .experienceContainer{
+    color: white;
+    border-radius: 0.6rem;
+    margin: 2.4rem;
+    padding: 1rem;
+    background-color: rgb(50,50,50);
+  }
+  
+  .ContainerSentence{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    
+  }
+  
+  .imageContainer{
+    width:10vw;
+  }
+  
+  .imageCompany{
+    height: 7rem;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+  }
+  
+  .description{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .companyTitle{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  
+  .companyName{
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+  
+  .companyTitleDescription{
+    margin: 1rem ;
+    font-style: italic;
+  }
+  
+  .descriptionCompany{
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+    padding: 0rem 0.5rem;
+  }
+  
+  .subtitle{
+    font-size: 1.5rem;
+    color: #6c63ff;
+  }
+
+}
+
+/* Media query for monitors larger than 18 inches - assuming Full HD resolution */
+@media screen and (min-width: 1200px) {
+  /* Your CSS rules for monitors larger than 18 inches here */
+  
+  .experienceContainer{
+    color: white;
+    border-radius: 0.6rem;
+    margin: 2.4rem;
+    padding: 2rem;
+    background-color: rgb(50,50,50);
+  }
+  
+  .ContainerSentence{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    
+  }
 }
 
