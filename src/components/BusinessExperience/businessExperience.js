@@ -7,6 +7,17 @@ import EnergaiaLogo from './../../assets/LogoEnergaiasmall2017.jpg';
 import EGreenLogo from './../../assets/eGreen.webp';
 import PayByPhoneLogo from './../../assets/PayByPhone.png';
 import FrenchTech from './../../assets/FrenchTech.png';
+import BLinked1 from './../../assets/BLinked1.JPG';
+import BLinked2 from './../../assets/BLinked2.JPG';
+import BLinked3 from './../../assets/BLinked3.JPG';
+import EnerBis1 from './../../assets/EnerBis1.JPG';
+import EnerBis2 from './../../assets/EnerBis2.jpg';
+import EnerBis3 from './../../assets/EnerBis3.jpg';
+import EnerBis4 from './../../assets/EnerBis4.JPG';
+import EnerProd1 from './../../assets/EnerProd1.JPG';
+import EnerProd2 from './../../assets/EnerProd2.JPG';
+import EnerProd3 from './../../assets/EnerProd3.jpg';
+import EnerProd4 from './../../assets/EnerProd4.jpg';
 
 
 
@@ -22,8 +33,9 @@ const businessExperience = () => {
       <AnimationSentence
       title='B-LINKED SOLUTIONS'
       picture={LogoBLinked}
-      description='Trading and Consulting , (Hong Kong)'
+      description='Trading and Consulting , (HK)'
       link='http://www.b-linkedsolutions.com/'
+      linkPic={[BLinked1, BLinked2, BLinked3]}
       projectDescription= 'Founder-CEO '
       date='(March 2019 - January 2021)'
       sentences={[
@@ -39,6 +51,7 @@ const businessExperience = () => {
       title='Energaia'
       picture={EnergaiaLogo}
       description='Food ingredient and technology company specialised in Micro-algae (Bangkok Thailand)'
+      linkPic={[EnerBis1, EnerBis2, EnerBis3, EnerBis4]}
       projectDescription= 'Business Development Director'
       date='(June 2014 - June 2018)'
       sentences={[
@@ -55,6 +68,7 @@ const businessExperience = () => {
       title='Energaia'
       picture={EnergaiaLogo}
       description='Food ingredient and technology company specialised in Micro-algae (Bangkok Thailand)'
+      linkPic={[EnerProd1, EnerProd2, EnerProd3, EnerProd4]}
       projectDescription= 'Operation Manager'
       date='(June 2014 - June 2018)'
       sentences={[

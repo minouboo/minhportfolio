@@ -1,9 +1,13 @@
-import React,{useEffect, useRef} from 'react';
+import React,{useEffect, useRef, useState} from 'react';
 import './animationSentence.css'
 import { motion, useInView, useAnimation } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import PhotoGalleryModal from '../Modal/PhotoGalleryModal';
+import LogoFigma from './../../assets/figma.png';
+import LogoGitHub from './../../assets/github.png';
 
-const AnimationSentence = ({title, projectDescription, sentences, picture, description, date, linkGitHub, linkFigma}) => {
+
+const AnimationSentence = ({title, projectDescription, sentences, picture, description, date, linkGitHub, linkFigma, linkPic}) => {
 
   const ref = useRef(null);
   const isInView = useInView(ref, {once: false} );
@@ -35,6 +39,19 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
     }
   };
 
+  const [modal, setModal] = useState(false);
+  const [photos, setPhotos] = useState([]);
+
+  const openPicGallery =()=>{
+    setModal(true);
+    setPhotos(linkPic);
+    console.log(photos)
+  };
+
+  const closePicGallery = () => {
+    setModal(false);
+  };
+
   return (  
 
     <motion.div 
@@ -53,6 +70,11 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
           </div>
           {linkGitHub && <Link to={linkGitHub} className='link'>Click here for the GitHub</Link>}
           {linkFigma && <Link to={linkFigma} className='link'>Click here for the Figma</Link>}
+          {linkPic && (
+              <a onClick={openPicGallery} className='link'>
+                Click here for pictures
+              </a>
+            )}
           <motion.ul>
             <p className='descriptionCompany'>{projectDescription}</p>
             <p className='companyTitleDescription'>{date}</p>
@@ -65,7 +87,7 @@ const AnimationSentence = ({title, projectDescription, sentences, picture, descr
           </motion.ul>
         </div>
       </div>
-      
+      <PhotoGalleryModal isOpen={modal} close={closePicGallery} photos={photos} />
     </motion.div>
 
   )
