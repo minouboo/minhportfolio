@@ -1,10 +1,21 @@
 {
   "files": {
-    "main.css": "/minhportfolio/static/css/main.4ffcc201.css",
-    "main.js": "/minhportfolio/static/js/main.9d05b08f.js",
+    "main.css": "/minhportfolio/static/css/main.40093302.css",
+    "main.js": "/minhportfolio/static/js/main.6ca626f3.js",
+    "static/media/EnerProd4.jpg": "/minhportfolio/static/media/EnerProd4.94a7e50a5706e97511e5.jpg",
+    "static/media/EnerProd3.jpg": "/minhportfolio/static/media/EnerProd3.cdd2db4223d4e0f1d61f.jpg",
     "static/media/animationDev.gif": "/minhportfolio/static/media/animationDev.7835ddbfd9d23e02b60c.gif",
+    "static/media/BLinked2.JPG": "/minhportfolio/static/media/BLinked2.b6762e86c267ca54a4bd.JPG",
+    "static/media/EnerProd2.JPG": "/minhportfolio/static/media/EnerProd2.80d798d084f4871501aa.JPG",
+    "static/media/BLinked1.JPG": "/minhportfolio/static/media/BLinked1.1aa0b65a33f51bd693df.JPG",
+    "static/media/BLinked3.JPG": "/minhportfolio/static/media/BLinked3.c732170e22a923b55717.JPG",
+    "static/media/EnerBis3.jpg": "/minhportfolio/static/media/EnerBis3.c0788771eeb3a3740b23.jpg",
     "static/media/LogoEnergaiasmall2017.jpg": "/minhportfolio/static/media/LogoEnergaiasmall2017.999c5e5dc1c425238997.jpg",
+    "static/media/EnerBis4.JPG": "/minhportfolio/static/media/EnerBis4.dfd6488818f05e038bda.JPG",
+    "static/media/EnerProd1.JPG": "/minhportfolio/static/media/EnerProd1.8ab3450353568ca8d113.JPG",
+    "static/media/EnerBis1.JPG": "/minhportfolio/static/media/EnerBis1.973381ea760beadbf19d.JPG",
     "static/media/Profile.jpg": "/minhportfolio/static/media/Profile.3fc5fabeb7cc5b8c5ebd.jpg",
+    "static/media/EnerBis2.jpg": "/minhportfolio/static/media/EnerBis2.4db116edbaac8800095f.jpg",
     "static/media/PicProfilePro.jpg": "/minhportfolio/static/media/PicProfilePro.4db116edbaac8800095f.jpg",
     "static/media/LogoMyECard.png": "/minhportfolio/static/media/LogoMyECard.b286a67166fa55b8b4df.png",
     "static/media/PayByPhone.png": "/minhportfolio/static/media/PayByPhone.90876de86fa80fd419c5.png",
@@ -34,11 +45,11 @@
     "static/media/graduation.svg": "/minhportfolio/static/media/graduation.ce1dd05a84a91a52eb8cffaf6b3b82e6.svg",
     "static/media/eGreen.webp": "/minhportfolio/static/media/eGreen.117111e0698252366918.webp",
     "index.html": "/minhportfolio/index.html",
-    "main.4ffcc201.css.map": "/minhportfolio/static/css/main.4ffcc201.css.map",
-    "main.9d05b08f.js.map": "/minhportfolio/static/js/main.9d05b08f.js.map"
+    "main.40093302.css.map": "/minhportfolio/static/css/main.40093302.css.map",
+    "main.6ca626f3.js.map": "/minhportfolio/static/js/main.6ca626f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ffcc201.css",
-    "static/js/main.9d05b08f.js"
+    "static/css/main.40093302.css",
+    "static/js/main.6ca626f3.js"
   ]
 }
