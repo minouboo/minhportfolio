@@ -150,7 +150,7 @@
     color: white;
     border-radius: 0.6rem;
     margin: 2.4rem;
-    padding: 2rem;
+    padding: 1rem;
     background-color: rgb(50,50,50);
   }
   
@@ -163,6 +163,50 @@
     margin: 1rem 1rem;
     padding: 1rem 1rem;
     
+  }
+  
+  .imageContainer{
+    width:10vw;
+  }
+  
+  .imageCompany{
+    height: 7rem;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+  }
+  
+  .description{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .companyTitle{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  
+  .companyName{
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+  
+  .companyTitleDescription{
+    margin: 1rem ;
+    font-style: italic;
+  }
+  
+  .descriptionCompany{
+    font-size: 1.2rem;
+    margin: 1rem 0.5rem;
+    padding: 0rem 0.5rem;
+  }
+  
+  .subtitle{
+    font-size: 1.5rem;
+    color: #6c63ff;
   }
 }
 

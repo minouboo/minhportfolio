@@ -27,7 +27,7 @@ const businessExperience = () => {
       <span className='skillsTitle'>Education</span>
       <img src={Graduation} alt="Animated GIF" className='gif'/>
       <span>Master of Commercial Strategy and Business Development</span>
-      
+
       <span className='skillsTitle'>Business Working Experience</span>
       
       <AnimationSentence
